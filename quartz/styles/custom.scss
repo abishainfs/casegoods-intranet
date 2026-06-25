@@ -1,3 +1,26 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Force correct fonts
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Karla", sans-serif !important;
+}
+
+body, p, li, a {
+  font-family: "Inter", sans-serif !important;
+}
+
+// Search overlay - elegant dark blur
+.search-results {
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+.search-result-card {
+  background: transparent !important;
+  color: white !important;
+}
+
+.search-result-card:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
