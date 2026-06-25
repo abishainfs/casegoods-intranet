@@ -12,8 +12,9 @@ fi
 
 echo "Syncing from $VAULT..."
 cp -r "$VAULT"/* content/
+echo "Pulling latest changes..."
+git pull --rebase
 echo "Pushing to GitHub..."
-git pull
 git add -A
 git commit -m "vault sync: $(date '+%Y-%m-%d %H:%M')"
 git push
