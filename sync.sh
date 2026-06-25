@@ -1,7 +1,19 @@
 #!/bin/bash
-echo "Syncing Obsidian vault..."
-cp -r /Users/casegoods01/Documents/almirah/Casegoods/* content/
+
+# Detect which machine we're on and set the vault path accordingly
+if [ -d "/Users/casegoods01/Documents/almirah/Casegoods" ]; then
+    VAULT="/Users/casegoods01/Documents/almirah/Casegoods"
+elif [ -d "/Users/PREDATOR/Documents/almirah/Casegoods" ]; then
+    VAULT="/Users/PREDATOR/Documents/almirah/Casegoods"
+else
+    echo "Could not find Obsidian vault. Please check the path."
+    exit 1
+fi
+
+echo "Syncing from $VAULT..."
+cp -r "$VAULT"/* content/
 echo "Pushing to GitHub..."
+git pull
 git add -A
 git commit -m "vault sync: $(date '+%Y-%m-%d %H:%M')"
 git push
