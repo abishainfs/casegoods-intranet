@@ -1,8 +1,56 @@
-More than practise, as a matter of principle, it is important to understand and try and assimilate how Salim thinks about pricing because it is a fundamental, something good 
+---
+title: Casegoods Pricing
+password: nekshan
+tags:
+  - pricing
+  - production
+  - philosophy
+---
+---
+title: Casegoods Pricing
+password: casegoods2026
 
-First of all the production cost of an object should always include the cost of making it, including PC, packaging, having a ready product to be picked up from the office if somebody comes to. That's the level of finishing that we needed to be at and then determine the price for it.
+---
+# Casegoods Pricing
 
-Now you may ask: how do we calculate the labour involved in a product? How do we charge for the labour? Simple: salaries of the people who are involved in making it and then amortise that over a certain production run. It has to be over a certain production number 
+More than a practice, understanding how Saleem/Mimo thinks about pricing is a matter of principle — it is foundational to how Casegoods operates.
 
-Now the way Mimo thinks about it is more from a single-piece perspective. He comes from the school of art objects or one-of products, such as the Manera collection that Studio Mumbai did, where you cannot really make things in a production run. You don't want them to sell at scale so you price it as you go and try and get the best margin you can for that particular sale and make it to order. Case goods cannot really function like that if it wants to scale up and look at having bigger projects because they will need scale.
+## Production Cost Philosophy
 
+The production cost of any object must include:
+- Cost of materials (PC)
+- Packaging
+- Finishing to a standard where the product is ready to be picked up from the office
+
+Only once these are accounted for should the price be determined.
+
+## Calculating Labour
+
+Labour cost is calculated by taking the salaries of everyone involved in making the product and amortising that across a projected production run. This only works above a certain production volume — which is why scale matters.
+
+## Salim vs Mimo: Two Schools of Thought
+
+Mimo approaches pricing from a single-piece, art-object perspective — similar to the Manera collection by Studio Mumbai, where pieces are made to order and priced to maximise margin on each individual sale. This works for one-of objects but does not scale.
+
+Casegoods, if it wants to grow and take on larger projects, needs to think in production runs — not one-offs.
+
+## Related
+- [[Pricing Philosophy - Various]]
+- [[Sale terms]]
+- [[Retailers]]
+- [[Saleem Bhatri]]
+
+# About
+
+We used to discount pretty easily. Architects used to get a standard 10% off and had a standard discount structure. The new discounting structure can be found here: 
+
+Mimo joined Casegoods in the summer of 2025 and as of March 2025, we do not discount easily. 
+
+This marked the start of a shift in our production, procurement, pricing and communication strategy. Not that all of it is because of Mimo, it just all started to happen at the same time.
+
+- Material cost & Inflation: This has increased substantially since we have moved production to [[Alibaug]] (Jeevaram & Krishna Interiors) and not made stuff in our workshop in Sakinaka. This is also because [[Deviji]] and a big part of the carpentry team had left, leaving us with basically no carpentry until [[Bhuraram]] came in. 
+- Margins are already disciplined - 
+
+If discounting:
+- Anchor it in quantity, long-term partnership.
+- Never make it casual
