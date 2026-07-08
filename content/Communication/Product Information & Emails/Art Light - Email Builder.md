@@ -1,6 +1,5 @@
-## Art Light
 
-tags: #communication, #sales, #templates, #lights
+
 
 ## Art Light Order Requirements Checklist
 
