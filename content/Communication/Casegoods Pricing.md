@@ -6,11 +6,7 @@ tags:
   - production
   - philosophy
 ---
----
-title: Casegoods Pricing
-password: casegoods2026
 
----
 # Casegoods Pricing
 
 More than a practice, understanding how Saleem/Mimo thinks about pricing is a matter of principle — it is foundational to how Casegoods operates.

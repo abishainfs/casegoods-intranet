@@ -1,4 +1,5 @@
-Q.nd a 10% discount to be given to fellow designers and architects,after confirming with Mimo?
+**Q. And a 10% discount to be given to fellow designers and architects, after confirming with Mimo?**
+
 A. Yes there is a discounting structure that we have in this sheet linked here (https://docs.google.com/spreadsheets/d/18loGZdX6E-_k1I8vNs5DcfuJxKXyfJ5g/edit?gid=1675837616#gid=1675837616) but that is not to be followed strictly because there are higher tiers of discount which Mimo may not want to give out without reviewing. Based on that you can send a message to Mimo and then he will confirm the final one.
 
 Snippet of the discounting structure:
@@ -62,7 +63,9 @@ Only if somebody wants to look at a very particular bespoke catalog, for example
 
 **Q. and price lists too.**
 
-A. There is an Excel sheet for the prices. I'm attaching it, linking it below. Additionally there must be PDF price lists which are updated as per the Excel sheet. This is not your responsibility to do but I've been trying to maintain it as much as possible but it's still not intact. This price list is important so that we can send it out to retailers and also architects. We typically keep price lists in three currencies: INR, EUR, and USD, and two lists: a customer list and a retailer list
+A. There is an Excel sheet for the prices - linking it here. (https://docs.google.com/spreadsheets/d/1kflGmr0WUWa1vzqwedJweL7SfCjKxkioXc7Lvhuw6Kw/edit?usp=sharing)
+
+Additionally there will be PDF price lists which are updated as per the Excel sheet. This price list is important so that we can send it out to retailers and also architects. We typically keep price lists in three currencies: INR, EUR, and USD, and two lists: a customer list and a retailer list : https://www.dropbox.com/scl/fo/yk6t9ulbnkzi2fq1h7v5r/AM24Q-Gp3iXHEmkPHkPjFu8?rlkey=1om6dsa990qy3bani3pub10w2&st=x1kgjeyc&dl=0
 
 That makes for a total of six price lists, which is not a lot to maintain but it's still tough for everyone to keep up with it. In any case you can always refer to the Excel sheet, which ideally should have the updated prices.
 
