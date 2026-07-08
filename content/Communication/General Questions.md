@@ -1,5 +1,24 @@
 Q.nd a 10% discount to be given to fellow designers and architects,after confirming with Mimo?
-A. Yes there is a discounting structure that we have in this sheet linked below but that is not to be followed strictly because there are higher tiers of discount which Mimo may not want to give out without reviewing. Based on that you can send a message to Mimo and then he will confirm the final one.
+A. Yes there is a discounting structure that we have in this sheet linked here (https://docs.google.com/spreadsheets/d/18loGZdX6E-_k1I8vNs5DcfuJxKXyfJ5g/edit?gid=1675837616#gid=1675837616) but that is not to be followed strictly because there are higher tiers of discount which Mimo may not want to give out without reviewing. Based on that you can send a message to Mimo and then he will confirm the final one.
+
+Snippet of the discounting structure:
+
+| Casegoods: Discounting Structure                                                                              |                               |              |                 |             |
+| ------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------ | --------------- | ----------- |
+|                                                                                                               | Invoice Value (excluding GST) |              |                 |             |
+| Standard Products                                                                                             | up to Rs 4 Lakhs              | 4- 7 Lakhs   | Rs 7 - 30 Lakhs | 30 Lakhs +  |
+| Direct Clients                                                                                                | No discount                   | 12%          | 16%             | 20%         |
+| Via Architecture, Design Studios                                                                              | 10%                           | 12%          | 16%             | 20%         |
+| Case Design Clients Architecture/ Interior Services                                                           | 12%                           | 16%          | 20%             | 24%         |
+|                                                                                                               |                               |              |                 |             |
+| Discounts not applicable for custom/ bespoke furniture                                                        |                               |              |                 |             |
+| Friends and Family Discounts- As per discretion                                                               |                               |              |                 |             |
+| Case Design employees- 10% additional discount over discounted retailer price (to be assessed as per product) |                               |              |                 |             |
+| Volume discount                                                                                               |                               |              |                 |             |
+|                                                                                                               | Invoice Value (excluding GST) |              |                 |             |
+| Diyas and Dipas only                                                                                          | upto Rs 1 Lakh                | 1- 2.5 Lakhs | Rs 2.5- 5 Lakhs | 5- 15 Lakhs |
+| Direct Clients                                                                                                | No discount                   | 12%          | 16%             | 20%         |
+![[Screenshot 2026-07-08 at 18.18.33.png]]
 
 In any case discounts are only applicable on catalog products or, to put it better, products that have already been developed and do not need any development time. Anything that appears in our catalog or which we have previously developed but not put in our catalog could potentially be considered as a catalog piece and could potentially be applicable for this discount.
 
