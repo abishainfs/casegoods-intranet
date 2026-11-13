@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>casenotes is closed</title>
+<style>
+  :root { --bg: #ffffff; --ink: #141414; --muted: #7a7a7a; --rule: #e8e8e8; --wood: #cdaa87; --walnut: #7d5c41; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121212; --ink: #f5f5f5; --muted: #9a9a9a; --rule: #2a2a2a; --wood: #8a6a4f; --walnut: #d9b896; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", sans-serif; padding: 1.5rem; }
+  main { max-width: 28rem; text-align: center; }
+  svg { width: 132px; height: auto; margin-bottom: 1.75rem; }
+  h1 { font-size: 1.6rem; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 0.5rem; }
+  p { color: var(--muted); margin: 0 0 0.25rem; }
+  .sign { display: inline-block; margin-top: 1.5rem; padding: 0.35rem 0.9rem; border: 1px solid var(--rule);
+          border-radius: 999px; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--walnut); }
+</style>
+</head>
+<body>
+<main>
+  <!-- A small wooden stool with its legs up: the workshop is closed. -->
+  <svg viewBox="0 0 132 96" aria-hidden="true">
+    <rect x="10" y="78" width="112" height="6" rx="3" fill="var(--rule)"/>
+    <rect x="22" y="58" width="88" height="14" rx="4" fill="var(--wood)"/>
+    <path d="M34 58 L26 14 M98 58 L106 14 M52 58 L50 22 M80 58 L82 22" stroke="var(--walnut)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M30 36 H102" stroke="var(--walnut)" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </svg>
+  <h1>The workshop is closed.</h1>
+  <p>casenotes is off for now. The stools are up, the lights are off.</p>
+  <p>Come back another day.</p>
+  <span class="sign">Closed</span>
+</main>
+</body>
+</html>

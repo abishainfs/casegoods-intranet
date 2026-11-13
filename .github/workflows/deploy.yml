@@ -1,0 +1,67 @@
+name: Deploy Quartz site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - v5
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # Kill switch: while an OFFLINE file exists, publish the "closed" page instead of the site.
+      - name: Check kill switch
+        id: mode
+        run: if [ -f OFFLINE ]; then echo "offline=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@v4
+        if: steps.mode.outputs.offline != 'true'
+        with:
+          node-version: 24
+      - name: Cache dependencies
+        if: steps.mode.outputs.offline != 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      - name: Cache Quartz plugins
+        if: steps.mode.outputs.offline != 'true'
+        uses: actions/cache@v4
+        with:
+          path: .quartz/plugins
+          key: ${{ runner.os }}-plugins-${{ hashFiles('quartz.lock.json') }}
+      - name: Install Dependencies
+        if: steps.mode.outputs.offline != 'true'
+        run: npm ci
+      - name: Install Quartz plugins
+        if: steps.mode.outputs.offline != 'true'
+        run: npx quartz plugin install
+      - name: Build Quartz
+        if: steps.mode.outputs.offline != 'true'
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.mode.outputs.offline == 'true' && 'offline' || 'public' }}
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
